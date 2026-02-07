@@ -1,0 +1,120 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #37383a;  
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #312b2b;  
+    border-radius: 15px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    padding: 70px;
+    transition: transform 0.2s ease-in-out;  
+  }
+  
+  main:hover {
+    transform: scale(1.02);  
+  }
+  
+
+  
+  .search {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 0;
+    padding: 18px 25px;
+    border-radius: 8px;
+    background-color: #e0e8f0;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out;  
+  }
+  
+  .search:hover {
+    background-color: #d0e3f0;  
+  }
+  
+  .search input[type="text"] {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;  
+    border-radius: 8px;
+    font-size: 18px;
+    color: #333;
+    background-color: #f0f2f5;  
+        transition: background-color 0.2s ease-in-out; } 
+  
+  .search input[type="text"]:hover,
+  .search input[type="text"]:focus {
+    background-color: #fff;  
+  }
+  
+  .search input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  .search-btn {
+    border: none;
+    background-color: #2eafff;  
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .search-btn:hover {
+    background-color: #0095ff; 
+  }
+  
+  .search-icon {
+    font-size: 22px;
+    transition: transform 0.2s ease-in-out;  
+  }
+  
+  .search-icon:hover {
+    transform: scale(1.1);  
+  }
+  
+  
+  
+  .result {
+    width: 80%;
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .definition {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222;  
+    font-size: 18px;
+  }
+  
+  .pronunciation {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .example-sentence {color: #999;
+    font } 
+
+    h1 {
+        margin-bottom: 30px;  
+        font-size: 36px;  
+        color: #3399ff;  
+        text-align: center;  
+      }
+  
